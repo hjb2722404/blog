@@ -1,0 +1,23 @@
+.markdown-section h2 {
+    font-size: 1.3rem;
+    border-bottom: 2px solid rgb(239, 112, 96);
+}
+
+.markdown-section h2 span {
+    display: inline-block;
+    font-weight: bold;
+    background: rgb(239, 112, 96);
+    color: #ffffff;
+    padding: 3px 10px 1px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    margin-right: 3px;
+}
+
+.markdown-section h2:after {
+    display: inline-block;
+    content: "";
+    vertical-align: bottom;
+    border-bottom: 36px solid #efebe9;
+    border-right: 20px solid transparent;
+}
