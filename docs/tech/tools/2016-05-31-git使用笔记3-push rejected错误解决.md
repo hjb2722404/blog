@@ -7,6 +7,8 @@ author: hjb2722404
 
 ---
 
+# git使用笔记3-push rejected错误解决
+
 背景是这样的，我在github上新建了一个名为mxzs的库，然后在本地mxzs文件夹下init了一个git仓库，然后我add了所有文件，并进行了commit。
 
 这时，我使用以下命令将本地库与github上的mxzs库做了同步关联：

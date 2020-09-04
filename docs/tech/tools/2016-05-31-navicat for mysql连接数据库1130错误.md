@@ -7,6 +7,8 @@ tags: [数据库,navicat]
 
 ---
 
+# navicat for mysql连接数据库1130错误
+
 在使用navicat for mysql工具连接远程数据库时出现的典型错误1130：
 
 <blockquote>

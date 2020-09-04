@@ -7,9 +7,10 @@ author: hjb2722404
 
 ---
 
+# CentOs Server环境搭建
+
 标签（空格分隔）： 环境搭建 centos
 
----
 
 <blockquote>
   引言：本文档是在全新的CentOs系统搭建JAVA工程相关的服务器环境的指导文档
@@ -17,7 +18,7 @@ author: hjb2722404
 
 ---
 
-##步骤索引：
+## 步骤索引：
 
 一、安装JDK     
 二、安装Tomcat     
@@ -25,7 +26,7 @@ author: hjb2722404
 
 
 
-##正文
+## 正文
 
 一、安装JDK
 

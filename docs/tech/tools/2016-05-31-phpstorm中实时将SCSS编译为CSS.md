@@ -7,6 +7,8 @@ tags: [phpstorm, scss]
 
 ---
 
+# phpstorm中实时将SCSS编译为CSS
+
 1-1、安装ruby，并在安装时勾选“add..to..PATH”一项。
 
 1-2、命令行运行：gem install sass，安装SASS模块

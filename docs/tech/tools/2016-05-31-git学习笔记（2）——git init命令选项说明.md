@@ -7,7 +7,9 @@ author: hjb2722404
 
 ---
 
-##git init
+# git学习笔记（2）——git init命令选项说明
+
+## git init
 
 <blockquote>
   创建一个新的仓库或重新初始化现有仓库

@@ -7,6 +7,8 @@ tags: [win8,wampserver]
 
 ---
 
+# win8全新安装wampserver数据库管理phpmyadmin显示forbidden 403错误 的解决方法
+
 本来从学习PHP+MySQL以来，在win上本机测试如果懒得自己装服务器环境，就用的是张宴大哥编写的apmserv软件来搭建环境的，无奈现在很多组件都已经更新了好几个版本，而apmserv却一直停留在5.2.6版本，导致很多组件的新特性无法使用，所以不得已决定改用wampserver
 
 不过有意思的是，这个wampserver的作者似乎是多虑了，默认安装在WIN8系统上时对权限的控制过于苛刻，导致全新安装的wampserver访问本地phpmyadmin时出现各种权限错误，其中就包括标题所示403禁止访问错误。

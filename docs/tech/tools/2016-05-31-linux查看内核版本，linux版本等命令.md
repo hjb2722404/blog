@@ -7,7 +7,9 @@ tags: [liunx, 命令]
 
 ---
 
-####**查看内核版本**
+# linux查看内核版本，linux版本等命令
+
+#### **查看内核版本**
 
         # uname -r
 
@@ -29,7 +31,7 @@ tags: [liunx, 命令]
 
 
 
-####**查看linux版本**
+#### **查看linux版本**
 
         # lsb_release -a
 

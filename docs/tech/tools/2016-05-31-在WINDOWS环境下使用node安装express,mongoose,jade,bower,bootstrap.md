@@ -7,6 +7,8 @@ tags: [nodejs,mongoose]
 
 ---
 
+# 在WINDOWS环境下使用node安装express,mongoose,jade,bower,bootstrap
+
 最近学习node下的web开发，需要搭建一个开发环境，采用的是express+mangoose+jade+bootstrap的环境架构，已经在window8.1系统（64bit）上安装了node,(安装过程稍后会单独写一篇博文)，就使用node安装了以上所提到的包。
 
 1、安装express。打开windows命令行窗口（cmd）,然后利用cd命令切换到你的项目根目录，执行下面的语句：
