@@ -1,0 +1,19 @@
+{
+  catMap: {
+    'tech': '技术',
+    'life': '生活',
+    'think': '思想',
+    'back': '后端',
+    'front': '前端',
+    'other': '其它',
+    'tools': '工具'
+  },
+  excludeFiles: [
+    '_coverpage.md',
+    '_navbar.md',
+    '_sidebar.md',
+    '.nojekyll',
+    'index.html',
+    'README.md',
+  ]
+}
