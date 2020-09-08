@@ -11,7 +11,7 @@ author: hjb2722404
 
 
 
-###**实验对象：transition**
+### *实验对象：transition**
 
 <blockquote>
   transition实际上是一种提供了一组用来实现效果过渡方法的复合属性。
@@ -19,13 +19,13 @@ author: hjb2722404
 
 
 
-###**语法**
+### *语法**
 
 <blockquote>
   transition：[ transition-property ] || [ transition-duration ] || [ transition-timing-function ] || [ transition-delay ]
 </blockquote>
 
-###**说明**
+### *说明**
 
 <blockquote>
   transition-property:参与过渡的属性，可以是任意的CSS属性，也可以是none代表不设置，或者all代表所有可以进行过渡的属性，可以提供多个属性值，用逗号隔开；
@@ -301,11 +301,11 @@ author: hjb2722404
         transition-delay:过渡延迟时间，单位s或ms;
 
 
-###**实例**
+### *实例**
 
 
 
-####HTML
+#### HTML
 
 
 
@@ -324,7 +324,7 @@ author: hjb2722404
 
 
 
-####LESS
+#### LESS
 
 
 
@@ -378,7 +378,7 @@ author: hjb2722404
 
 
 
-####css
+#### css
 
 
 
@@ -426,7 +426,7 @@ author: hjb2722404
 
 
 
-####效果：
+#### 效果：
 
 ![这里写图片描述](http://img.blog.csdn.net/20150603172824570)
 
@@ -438,7 +438,7 @@ author: hjb2722404
 
 
 
-###**总结**
+### *总结**
 
 <blockquote>
   总的来说，transition规定了过渡效果的各项参数，但它需要一定的触发条件，比如上面css中的.box1:hover，就是使用鼠标悬停来触发过渡，实际应用中，多采用与JS结合的方式，动态添加类名来实现各种过渡效果。

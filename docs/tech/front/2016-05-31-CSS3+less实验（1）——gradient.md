@@ -17,18 +17,18 @@ author: hjb2722404
 
 
 
-###**线性渐变**
+### *线性渐变**
 
 
 
-####1、语法：
+#### 1、语法：
 
         background:-prefix-linear-gradient(angle,startcolor,stopcolor);
 
 
 
 
-####2、说明：
+#### 2、说明：
 
         prefix:浏览器前缀，目前有 moz[火狐]，webkit[chrome，safari],o[opara]
         
@@ -41,7 +41,7 @@ author: hjb2722404
 
 
 
-####3、html：
+#### 3、html：
 
 
 
@@ -72,7 +72,7 @@ author: hjb2722404
 
 
 
-####4、less
+#### 4、less
 
 <blockquote>
   关于less，如果没有接触过的，请看这里：[LESS中文教程][1]
@@ -138,7 +138,7 @@ author: hjb2722404
 
 
 
-####5、CSS
+#### 5、CSS
 
 
 
@@ -223,7 +223,7 @@ author: hjb2722404
 
 
 
-####6、效果
+#### 6、效果
 
 ![这里写图片描述](http://img.blog.csdn.net/20150602101501377)
 
@@ -231,16 +231,16 @@ author: hjb2722404
   从做至右的样式分别是box1~box7
 </blockquote>
 
-###**径向渐变**
+### *径向渐变**
 
-####1、语法
+#### 1、语法
 
         -prefix-radial-gradient([&lt;bg-position&gt; || &lt;angle&gt;,]? [&lt;shape&gt; || &lt;size&gt;,]? &lt;color-stop&gt;, &lt;color-stop&gt;[, &lt;color-stop&gt;]*);
 
 
 
 
-####2、说明
+#### 2、说明
 
         prefix:浏览器前缀，目前有 moz[火狐]，webkit[chrome，safari],o[opara]
         
@@ -260,7 +260,7 @@ author: hjb2722404
 
 
 
-####3、HTML
+#### 3、HTML
 
 
 
@@ -271,7 +271,7 @@ author: hjb2722404
   <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"box12"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"box13"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></pre>
 
-####4、Less
+#### 4、Less
 
 
 
@@ -372,7 +372,7 @@ author: hjb2722404
   <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-function">-moz-radial-gradient(<span class="hljs-number">16</span>px, #<span class="hljs-number">000000</span>, #d2f726, #dd2222, #dd2222)</span></span></span>;
   <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-function">-webkit-radial-gradient(<span class="hljs-number">16</span>px, #<span class="hljs-number">000000</span>, #d2f726, #dd2222, #dd2222)</span></span></span>;</span></pre>
 
-####6、效果
+#### 6、效果
 
 ![这里写图片描述](http://img.blog.csdn.net/20150602140537996)
 

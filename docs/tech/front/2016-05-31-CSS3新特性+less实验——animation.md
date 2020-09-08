@@ -11,7 +11,7 @@ author: hjb2722404
 
 
 
-###**实验对象：animation**
+### *实验对象：animation**
 
 <blockquote>
   animation可以被用来定义一组动画效果，此效果可以被应用在任何元素之上，并且可以通过它提供的各项参数精确控制动画的细节。
@@ -19,7 +19,7 @@ author: hjb2722404
 
 
 
-###**语法**
+### *语法**
 
 <blockquote>
   animation：[[ animation-name ] || [ animation-duration ] || [ animation-timing-function ] || [ animation-delay ] || [ animation-iteration-count ] || [ animation-direction ]] 
@@ -27,7 +27,7 @@ author: hjb2722404
 
 
 
-###**说明**
+### *说明**
 
 <blockquote>
   animation-name：动画名称，必须与@keyframes配合使用，所有动画由@keyframes单独定义，在元素样式中通过animation-name来调用
@@ -67,7 +67,7 @@ author: hjb2722404
 
 
 
-###**实例**
+### *实例**
 
 <blockquote>
   由于@keyframes定义起来太过繁琐，还包括要兼容不同的浏览器，所以这里我们直接推荐一些成熟的animation组件——animate.css，免去了大家编写@keyframes效果的麻烦，当然，如果要做出更精致的动画来，在大家熟悉该属性的用法后就可以自己定义吊炸天的动画效果了。      
@@ -76,7 +76,7 @@ author: hjb2722404
 
 
 
-####HTML
+#### HTML
 
 
 
@@ -99,7 +99,7 @@ author: hjb2722404
 
 
 
-####less
+#### less
 
 
 
@@ -134,7 +134,7 @@ author: hjb2722404
 
 
 
-####CSS
+#### CSS
 
 
 
@@ -198,7 +198,7 @@ animate.css中的slideOutUp动画定义部分：
 
 
 
-####效果
+#### 效果
 
 ![这里写图片描述](http://img.blog.csdn.net/20150604113216785)
 

@@ -9,31 +9,31 @@ author: hjb2722404
 
 本次试验将深入探索CSS3的新特性——transform(变形)。
 
-###**实验对象：transform**
+### *实验对象：transform**
 
 <blockquote>
   transform：顾名思义，就是【变形】的意思，在CSS3中的变形有以下几种：旋转 （rotate） |  扭曲 （skew）  |  缩放 （scale） |  移动 （translate）  |  矩阵变形 （matrix），注意，不同于gradient是background属性的值，transform本身是一个属性。
 </blockquote>
 
-###**语法**
+### *语法**
 
         transform:transform: none | rotate | scale | skew | translate |matrix;
 
 
-###**试验**
+### *试验**
 
-####1、rotate [旋转]
+#### 1、rotate [旋转]
 
 
 
-#####用法
+##### 用法
 
         transform:rotate(&lt;angle&gt;) 
 
 
 
 
-#####html
+##### html
 
 
 
@@ -44,7 +44,7 @@ author: hjb2722404
     <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"box5"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"box6"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></pre>
 
-#####less
+##### less
 
 
 
@@ -95,7 +95,7 @@ author: hjb2722404
 
 
 
-#####CSS
+##### CSS
 
 
 
@@ -169,7 +169,7 @@ author: hjb2722404
   <span class="hljs-rule"><span class="hljs-attribute">transform</span>:<span class="hljs-value"> <span class="hljs-function">rotate(<span class="hljs-number">360</span>deg)</span></span></span>;
 <span class="hljs-rule">}</span></span></pre>
 
-#####效果
+##### 效果
 
 ![这里写图片描述](http://img.blog.csdn.net/20150602154828506)
 
@@ -196,9 +196,9 @@ author: hjb2722404
   你可以自己尝试一下设置不同的圆心效果有何不同哦！
 </blockquote>
 
-####2 、skew 【扭曲】
+#### 2 、skew 【扭曲】
 
-#####用法
+##### 用法
 
         transform:skew(&lt;angle&gt; [, &lt;angle&gt;]);
         
@@ -207,7 +207,7 @@ author: hjb2722404
         transform:skewX(&lt;angle&gt;); |  transform:skewY(&lt;angle&gt;);
 
 
-#####HTML
+##### HTML
 
 
 
@@ -224,7 +224,7 @@ author: hjb2722404
 <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
 </pre>
 
-#####less
+##### less
 
 
 
@@ -284,7 +284,7 @@ author: hjb2722404
   <span class="hljs-class">.skew</span>(170deg);
 }</pre>
 
-#####css
+##### css
 
 
 
@@ -370,7 +370,7 @@ author: hjb2722404
 <span class="hljs-rule">}</span></span>
 </pre>
 
-#####效果
+##### 效果
 
 ![这里写图片描述](http://img.blog.csdn.net/20150602165409825)
 
@@ -380,9 +380,9 @@ author: hjb2722404
   同样滴，斜切也是有参照圆心的，依旧是transform-origin。这个大家可以自己试验，之后的实验中再不说明。
 </blockquote>
 
-####3、translate [平移]
+#### 3、translate [平移]
 
-#####用法
+##### 用法
 
         transform:translate(&lt;length&gt; [, &lt;length&gt;]);
         
@@ -395,9 +395,9 @@ author: hjb2722404
   这个比较简单，没什么特别说明的，就不演示代码了
 </blockquote>
 
-####4、scale[缩放]
+#### 4、scale[缩放]
 
-#####用法
+##### 用法
 
         transform:scale(&lt;number&gt; [, &lt;number&gt;]);
         
@@ -412,9 +412,9 @@ author: hjb2722404
 
 
 
-####5、matrix[矩阵变形]
+#### 5、matrix[矩阵变形]
 
-#####用法
+##### 用法
 
         matrix(&lt;number&gt;,&lt;number&gt;,&lt;number&gt;,&lt;number&gt;,&lt;number&gt;,&lt;number&gt;)：
         
